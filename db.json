@@ -1,9 +1,174 @@
 {
-  "posts": [
-    { "id": 1, "sameer": "Post 1" },
-    { "id": 2, "sunny": "Post 2" },
-    { "id": 3, "tuooo": "Post 3" }
-  ],
+  "products": [
+    {
+        "id": "1",
+        "price": 4000,
+        "name": "ZEBRA POP",
+        "artist": "Patrice Murciano",
+        "description": "ZEBRA POP",
+        "category": "Oil",
+        "subject": "Animal",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/patrice-murciano-zebra.jpg"
+            },
+            {
+                "img_l": "assets/img/patrice-murciano-zebra.jpg"
+            },
+            {
+                "img_f": "assets/img/patrice-murciano-zebra.jpg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "price": 5000,
+        "name": "HIGHLAND CATTLE",
+        "artist": "Mark Gemmell",
+        "description": "HIGHLAND CATTLE",
+        "category": "Oil",
+        "subject": "Animal",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/mark-gemmell-highland.jpg"
+            },
+            {
+                "img_l": "assets/img/mark-gemmell-highland.jpg"
+            },
+            {
+                "img_f": "assets/img/mark-gemmell-highland.jpg"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "price": 2000,
+        "name": "KRAHE",
+        "artist": "Rudi Hurzlmeier",
+        "description": "KRAHE",
+        "category": "Acrylic",
+        "subject": "HUMOR",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/rudi-hurzlmeier.jpg"
+            },
+            {
+                "img_l": "assets/img/rudi-hurzlmeier.jpg"
+            },
+            {
+                "img_f": "assets/img/rudi-hurzlmeier.jpg"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "price": 1500,
+        "name": "GIRL SWING",
+        "artist": "Gary Waters",
+        "description": "GIRL SWING",
+        "category": "Water Color",
+        "subject": "Nature",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/gary-waters-girl-swing.jpg"
+            },
+            {
+                "img_l": "assets/img/gary-waters-girl-swing.jpg"
+            },
+            {
+                "img_f": "assets/img/gary-waters-girl-swing.jpg"
+            }
+        ]
+    }
+    ,
+    {
+        "id": "5",
+        "price": 1500,
+        "name": "GIRL SWING",
+        "artist": "Gary Waters",
+        "description": "GIRL SWING",
+        "category": "Water Color",
+        "subject": "Nature",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/gary-waters-girl-swing.jpg"
+            },
+            {
+                "img_l": "assets/img/gary-waters-girl-swing.jpg"
+            },
+            {
+                "img_f": "assets/img/gary-waters-girl-swing.jpg"
+            }
+        ]
+    },{
+        "id": "1",
+        "price": 4000,
+        "name": "ZEBRA POP",
+        "artist": "Patrice Murciano",
+        "description": "ZEBRA POP",
+        "category": "Oil",
+        "subject": "Animal",
+        "physicalDimensions": [
+            {
+                "size": "24 x 24"
+            },
+            {
+                "size": "12 X 12"
+            }
+        ],
+        "images": [
+            {
+                "img_s": "assets/img/patrice-murciano-zebra.jpg"
+            },
+            {
+                "img_l": "assets/img/patrice-murciano-zebra.jpg"
+            },
+            {
+                "img_f": "assets/img/patrice-murciano-zebra.jpg"
+            }
+        ]
+    }
+],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
